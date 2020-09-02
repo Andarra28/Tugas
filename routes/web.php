@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/Andarra', function() {
+    return 'Ohayo Minasan';
+});
+
+Route::get ('/Belajar', function() {
+    echo '<h1> Hello EveryBody </h1>';
+});
