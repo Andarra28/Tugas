@@ -24,3 +24,20 @@ Route::get('/Andarra', function() {
 Route::get ('/Belajar', function() {
     echo '<h1> Hello EveryBody </h1>';
 });
+
+Route::get('/Latihan', function(){
+    return view('Latihan');
+});
+
+Route::get('/Percobaan1', function(){
+    return view('Percobaan1');
+});
+
+Route::get('/Percobaan2', function(){
+    return view('Percobaan2');
+});
+
+Route::get('/Percobaan3', function(){
+    return view('Percobaan3');
+});
+
